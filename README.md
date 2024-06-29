@@ -18,23 +18,23 @@ Implement a simulation of a basic computer memory system, arithmetic/logic unit 
 3. **ALU (Arithmetic/Logic Unit)**
    - Two inputs: A (from DR) and B (from AC).
    - Control lines (C2, C1, C0) determine the ALU operations:
-      `(001) Transfer input A`
-      `(010) Increment A`
-      `(011) Multiply A * B`
-      `(100) Subtract A - B`
-      `(101) Divide A / B`
-      `(110) Add A + B`
-      `(111) A XOR B`
+     - `(001) Transfer input A`
+     - `(010) Increment A`
+     - `(011) Multiply A * B`
+     - `(100) Subtract A - B`
+     - `(101) Divide A / B`
+     - `(110) Add A + B`
+     - `(111) A XOR B`
 
 4. **Bus Selection**
    - Control select lines determine which component is connected to the bus:
-     `(000) Memory`
-      `(001) AR`
-      `(010) PC`
-      `(011) AC`
-      `(100) DR`
-      `(101) TR`
-      `(111) IR`
+     - `(000) Memory`
+     - `(001) AR`
+     - `(010) PC`
+     - `(011) AC`
+     - `(100) DR`
+     - `(101) TR`
+     - `(111) IR`
 
 Then we enhance the basic computer by adding a control unit, implementing the PC register as a counter and implementing a specific program.
 
