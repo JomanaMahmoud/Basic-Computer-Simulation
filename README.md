@@ -1,4 +1,4 @@
-# Basic-Computer-Simulation
+# Basic Computer Simulation
 ## Project Description
 
 Implement a simulation of a basic computer memory system, arithmetic/logic unit (ALU), and a set of registers. These components will be interconnected through a common bus controlled by three select lines (S2, S1, S0).
