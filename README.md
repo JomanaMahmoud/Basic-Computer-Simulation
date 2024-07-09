@@ -2,6 +2,7 @@
 ## Project Description
 
 Implement a simulation of a basic computer memory system, arithmetic/logic unit (ALU), and a set of registers. These components will be interconnected through a common bus controlled by three select lines (S2, S1, S0).
+
 ![image](https://github.com/yehiarasheed/Basic-Computer-Simulation/assets/157399068/02807870-c8cf-40d4-b466-bbf6ef27c614)
 1. **Memory (RAM)**
    - Size: 128 addresses (words).
