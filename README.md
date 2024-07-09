@@ -2,7 +2,7 @@
 ## Project Description
 
 Implement a simulation of a basic computer memory system, arithmetic/logic unit (ALU), and a set of registers. These components will be interconnected through a common bus controlled by three select lines (S2, S1, S0).
-
+![image](https://github.com/yehiarasheed/Basic-Computer-Simulation/assets/157399068/02807870-c8cf-40d4-b466-bbf6ef27c614)
 1. **Memory (RAM)**
    - Size: 128 addresses (words).
    - Each word is 16 bits.
@@ -59,5 +59,28 @@ Then we enhance the basic computer by adding a control unit, implementing the PC
    - Use BSA opcode for MUL and AND opcode for DIV.
    - Ignore HLT and interrupt instructions; use normal instruction cycle.
 
-![image](https://github.com/yehiarasheed/Basic-Computer-Simulation/assets/157399068/02807870-c8cf-40d4-b466-bbf6ef27c614)
+## How to Install
 
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yehiarasheed/Basic-Computer-Simulation.git
+   cd Basic-Computer-Simulation
+   ```
+   This command downloads a copy of the repository to your local machine and navigates into the project directory.
+
+2. **Install PSpice:**
+   Download and install PSpice from the [official PSpice website](https://www.pspice.com/). PSpice is essential for running and modifying the simulation files.
+
+3. **Open the Project in PSpice:**
+   - Launch PSpice.
+   - Navigate to the project files by selecting `File → Open` and choosing the appropriate `.circ` file from the cloned repository.
+
+## Dependencies
+
+This project relies on the following dependency:
+
+- **PSpice**: The application required to run and simulate the basic computer architecture.
+
+Make sure PSpice is installed and correctly configured on your machine to execute the simulation files in this project.
+
+---
