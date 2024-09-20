@@ -84,4 +84,9 @@ This project relies on the following dependency:
 
 Make sure PSpice is installed and correctly configured on your machine to execute the simulation files in this project.
 
+## Credits
+- **Developers**: Jomana Mahmoud, Nada Yasser, Rawan Hossam, Amr Osama & Yehia Rasheed.
+
+All media used in this project, including images and videos, are credited to their respective creators and used under fair use for educational and demonstration purposes. If you plan to use this project for commercial purposes, you must ensure you have obtained the necessary licenses or permissions for any copyrighted media.
+
 ---
